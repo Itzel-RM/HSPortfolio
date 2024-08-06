@@ -1,0 +1,80 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  background-color: #569f74;
+  text-align: center;
+}
+
+.projectBox {
+  background-color: #448d62;
+  max-width: 800px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: 2px solid #326247;
+  border-radius: 5%;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  text-color: #ece093;
+  padding: 1em;
+}
+
+h2 {
+  padding-top: 25px;
+}
+
+p {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#textid {
+  color: #F9ED9C;
+  text-align: center;
+}
+
+/* STYLE IMAGES */
+
+img {
+  border: 2px solid #326247;
+  border-radius: 5%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1em;
+  margin: 0;
+  background-color: #448d62;
+  border: 2px solid #326247;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #F9ED9C;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #358255;
+}
+
+.active {
+  border: 2px solid #326247;
+}
