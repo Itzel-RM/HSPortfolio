@@ -44,6 +44,8 @@ p {
 
 a {
   color: #e5d466;
+  text-align: center;
+  padding: 0.5em;
 }
 
 a:hover {
